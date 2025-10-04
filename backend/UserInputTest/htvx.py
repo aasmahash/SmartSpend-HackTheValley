@@ -2,10 +2,9 @@ import fastapi as fast
 import pandas as pd
 import uvicorn 
 import pdfplumber as pf
-import camelot as cm
 import os
 tables = []
-with pf.open(os.getcwd()+"\\ML\\cc_st.pdf") as pdf:
+with pf.open(os.getcwd()+"\\backend\\UserInputTest\\cc_st.pdf") as pdf:
     for page in pdf.pages:
         text = page.extract_text()
         cleaned_text = text.strip()
@@ -23,4 +22,4 @@ with pf.open(os.getcwd()+"\\ML\\cc_st.pdf") as pdf:
                         'data':table
                     })
     for table in tables:
-        print(pd.DataFrame(table['data']).dropna(axis=0))
+        pd.DataFrame(table['data']).dropna(axis=0).to_csv("output.csv")
