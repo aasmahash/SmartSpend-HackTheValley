@@ -2,7 +2,6 @@ import fastapi as fast
 import pandas as pd
 import uvicorn 
 import pdfplumber as pf
-import camelot as cm
 import os
 tables = []
 with pf.open(os.getcwd()+"\\ML\\cc_st.pdf") as pdf:
