@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 from finance_forecaster import FinanceForecaster
 import json
 from datetime import datetime
+import os
 
 def visualize_forecast(original_df, forecast_df, monthly_income, output_path='forecast_plot.png'):
     """
@@ -39,7 +40,7 @@ def visualize_forecast(original_df, forecast_df, monthly_income, output_path='fo
         
         # Get future predictions (next 12 months from last data point)
         last_historical_date = original_df['date'].max()
-        future_data = forecast_df[forecast_df['ds'] > last_historical_date].head(365)
+        future_data = forecast_df[forecast_df['ds'] > last_historical_date].head(52)
         
         # Aggregate forecast by month
         future_data['month'] = pd.to_datetime(future_data['ds']).dt.to_period('M')
@@ -142,7 +143,7 @@ def main(df, monthly_income=3500):
     
     # Get the internal Prophet forecast for visualization
     prophet_df = forecaster.prepare_data(df, 'date', 'amount')
-    forecast_df = forecaster.train_and_forecast(prophet_df, periods=365)
+    forecast_df = forecaster.train_and_forecast(prophet_df, periods=52)
     
     # Generate JSON output for Flutter
     result_json = forecaster.generate_json_output(forecast_df, df, monthly_income)
@@ -186,17 +187,27 @@ def main(df, monthly_income=3500):
             print(f"  Total: ${data['total']:,.2f} ({percentage:.1f}%)")
             print(f"  Avg per transaction: ${data['avg_per_transaction']:.2f}")
     
-    # Create visualization
-    visualize_forecast(df, forecast_df, monthly_income)
+    # GET PATH TO FRONTEND FOLDER
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    frontend_dir = os.path.join(script_dir, '..', 'frontend')
     
-    # Save JSON for Flutter
-    output_file = 'forecast_output.json'
-    with open(output_file, 'w') as f:
+    # Create frontend folder if it doesn't exist
+    os.makedirs(frontend_dir, exist_ok=True)
+    
+    # Create visualization and save to frontend
+    plot_path = os.path.join(frontend_dir, 'forecast_plot.png')
+    visualize_forecast(df, forecast_df, monthly_income, output_path=plot_path)
+    
+    # Save JSON to frontend
+    json_path = os.path.join(frontend_dir, 'forecast_output.json')
+    with open(json_path, 'w') as f:
         f.write(result_json)
     
     print("\n" + "=" * 60)
-    print(f"✓ JSON OUTPUT SAVED: {output_file}")
+    print("✓ FILES SAVED TO FRONTEND FOLDER")
     print("=" * 60)
+    print(f"  - {json_path}")
+    print(f"  - {plot_path}")
     print("\nReady for Flutter integration! 🚀")
     
     return {
