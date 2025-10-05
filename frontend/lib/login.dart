@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hackaton_app/dashboard.dart'; 
 import 'package:hackaton_app/sign_up.dart'; 
 import 'package:hackaton_app/forgot_password.dart'; 
+import 'package:hackaton_app/uploadCSV.dart'; 
+
 import 'package:http/http.dart' as http; // for sending requests to backend
 import 'dart:convert';
 
@@ -47,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
             .showSnackBar(const SnackBar(content: Text("Login successful!")));
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const DashboardPage()),
+          MaterialPageRoute(builder: (context) => const UploadCSVPage()),
         );
       } else {
         // Login failed
