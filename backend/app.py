@@ -102,5 +102,22 @@ def forgot_password():
     save_users(users_data)
 
     return jsonify({"message": "Password updated successfully"}), 200
+
+
+@app.route('/upload', methods=['POST'])
+def upload_files():
+    if 'files' not in request.files:
+        return jsonify({'error': 'No files found in request'}), 400
+
+    uploaded_files = request.files.getlist('files')
+
+    if not uploaded_files:
+        return jsonify({'error': 'No files uploaded'}), 400
+
+    for file in uploaded_files:
+        print(f"Received: {file.filename}")
+
+    return jsonify({'status': 'success', 'message': f'{len(uploaded_files)} file(s) received!'})
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)
