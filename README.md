@@ -40,26 +40,6 @@ The app turns raw transaction data into **easy-to-read dashboards** and **action
 
 ---
 
-## 🏆 Accomplishments We’re Proud Of
-
-* Implemented **automated one-year spending forecasts** using Meta Prophet.
-* Built scripts to **merge multiple CSV files** into a unified dataset for better predictions.
-* Created and refined our app design in **Figma**, then translated it into a working Flutter interface through iterative testing.
-* Developed a **dynamic Flutter dashboard** with intuitive, clean data visualizations.
-* Gained deep insights into building **manual data pipelines** instead of relying on prebuilt APIs like OpenAI.
-* Collaborated effectively as a team under tight hackathon deadlines.
-
----
-
-## 🚀 What’s Next for SmartSpend
-
-* Expand forecasting to include **personalized financial advice**.
-* Improve data refresh rates for **real-time dashboard updates**.
-* Introduce **goal-based analytics** and **overspending alerts**.
-* Strengthen **data security** and scalability for more users and data sources.
-
----
-
 ## 🧩 Tech Stack
 
 | Area            | Technology                       |
@@ -70,6 +50,14 @@ The app turns raw transaction data into **easy-to-read dashboards** and **action
 | Data Processing | Pandas                           |
 | Design          | Figma                            |
 
+---
+
+## 🚀 What’s Next for SmartSpend
+
+* Expand forecasting to include **personalized financial advice**.
+* Improve data refresh rates for **real-time dashboard updates**.
+* Introduce **goal-based analytics** and **overspending alerts**.
+* Strengthen **data security** and scalability for more users and data sources.
 ---
 
 ## 🤝 Team
