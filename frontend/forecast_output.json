@@ -1,0 +1,358 @@
+{
+  "forecast": {
+    "dates": [
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01"
+    ],
+    "predicted": [
+      90.17,
+      440.81,
+      266.13,
+      745.06,
+      303.08,
+      697.09,
+      1705.29,
+      661.76
+    ],
+    "lower_bound": [
+      0.0,
+      39.88,
+      33.2,
+      269.86,
+      2.45,
+      28.19,
+      0.0,
+      0.0
+    ],
+    "upper_bound": [
+      473.17,
+      1397.08,
+      1238.93,
+      1767.41,
+      1331.58,
+      2406.25,
+      6467.03,
+      1424.59
+    ]
+  },
+  "summary": {
+    "total_predicted_spending_1yr": 4909.39,
+    "annual_income": 42000,
+    "projected_savings": 37090.61,
+    "savings_rate": 88.31,
+    "avg_monthly_spending": 613.67
+  },
+  "metadata": {
+    "generated_at": "2025-10-05 02:12:04",
+    "forecast_months": 12,
+    "data_aggregation": "daily_to_monthly"
+  },
+  "categories": {
+    "AMZN Mktp CA": {
+      "total": 11.3,
+      "count": 1,
+      "avg_per_transaction": 11.3
+    },
+    "AMZN Mktp CA*HE76559J3": {
+      "total": 96.03,
+      "count": 1,
+      "avg_per_transaction": 96.03
+    },
+    "AMZN Mktp CA*NH50K0SX0": {
+      "total": 40.08,
+      "count": 1,
+      "avg_per_transaction": 40.08
+    },
+    "AMZN Mktp CA*NH8SX0GN1": {
+      "total": 24.96,
+      "count": 1,
+      "avg_per_transaction": 24.96
+    },
+    "AMZN Mktp CA*NN3EB4M91": {
+      "total": 53.43,
+      "count": 1,
+      "avg_per_transaction": 53.43
+    },
+    "AMZN Mktp CA*NN6F161D0": {
+      "total": 37.9,
+      "count": 1,
+      "avg_per_transaction": 37.9
+    },
+    "AMZN Mktp CA*NZ7GT1F90": {
+      "total": 68.2,
+      "count": 1,
+      "avg_per_transaction": 68.2
+    },
+    "AMZN Mktp CA*PJ68J1IS3": {
+      "total": 163.2,
+      "count": 2,
+      "avg_per_transaction": 81.6
+    },
+    "AMZN Mktp CA*QP3FH0VH3": {
+      "total": 35.91,
+      "count": 1,
+      "avg_per_transaction": 35.91
+    },
+    "ANGEL BEAUTY & HAIR SALO": {
+      "total": 5.65,
+      "count": 1,
+      "avg_per_transaction": 5.65
+    },
+    "BURGER KING #18025": {
+      "total": 7.33,
+      "count": 1,
+      "avg_per_transaction": 7.33
+    },
+    "CHATIME CHA120": {
+      "total": 8.81,
+      "count": 1,
+      "avg_per_transaction": 8.81
+    },
+    "CHOCOLATE N CHILL": {
+      "total": 9.04,
+      "count": 1,
+      "avg_per_transaction": 9.04
+    },
+    "DAIRY QUEEN #12278": {
+      "total": 11.84,
+      "count": 1,
+      "avg_per_transaction": 11.84
+    },
+    "DOLLARAMA # 795": {
+      "total": 2.83,
+      "count": 1,
+      "avg_per_transaction": 2.83
+    },
+    "ESSO CIRCLE K": {
+      "total": 69.89,
+      "count": 2,
+      "avg_per_transaction": 34.94
+    },
+    "FRESHCO #9612": {
+      "total": 14.0,
+      "count": 1,
+      "avg_per_transaction": 14.0
+    },
+    "Huiyi International Inc": {
+      "total": 6.2,
+      "count": 1,
+      "avg_per_transaction": 6.2
+    },
+    "JOLLIBEE": {
+      "total": 44.03,
+      "count": 3,
+      "avg_per_transaction": 14.68
+    },
+    "KFC/TACO BELL": {
+      "total": 40.0,
+      "count": 2,
+      "avg_per_transaction": 20.0
+    },
+    "Kindle Svcs": {
+      "total": 5.41,
+      "count": 1,
+      "avg_per_transaction": 5.41
+    },
+    "LONGO'S # 7": {
+      "total": 61.96,
+      "count": 2,
+      "avg_per_transaction": 30.98
+    },
+    "MAHAL TANJORE": {
+      "total": 40.28,
+      "count": 1,
+      "avg_per_transaction": 40.28
+    },
+    "MCDONALD'S #13277  QPS": {
+      "total": 5.64,
+      "count": 1,
+      "avg_per_transaction": 5.64
+    },
+    "METRO 100428": {
+      "total": 5.29,
+      "count": 1,
+      "avg_per_transaction": 5.29
+    },
+    "MR. PRETZELS": {
+      "total": 7.45,
+      "count": 1,
+      "avg_per_transaction": 7.45
+    },
+    "NO FRILLS ROCKY'S #718": {
+      "total": 70.82,
+      "count": 5,
+      "avg_per_transaction": 14.16
+    },
+    "OISHII TEA": {
+      "total": 28.93,
+      "count": 4,
+      "avg_per_transaction": 7.23
+    },
+    "OLD NAVY CANADA 5461": {
+      "total": 111.31,
+      "count": 1,
+      "avg_per_transaction": 111.31
+    },
+    "ONROUTE ODESSA E #1172": {
+      "total": 35.0,
+      "count": 1,
+      "avg_per_transaction": 35.0
+    },
+    "OSMOW'S": {
+      "total": 49.51,
+      "count": 3,
+      "avg_per_transaction": 16.5
+    },
+    "PEARL WELLNESS SPA INC.": {
+      "total": 248.6,
+      "count": 1,
+      "avg_per_transaction": 248.6
+    },
+    "POPEYES #11590": {
+      "total": 17.83,
+      "count": 1,
+      "avg_per_transaction": 17.83
+    },
+    "PRESTO DUNDAS STN": {
+      "total": 300.0,
+      "count": 2,
+      "avg_per_transaction": 150.0
+    },
+    "PRESTO FARE/PMCRQJ9BXF": {
+      "total": 6.6,
+      "count": 1,
+      "avg_per_transaction": 6.6
+    },
+    "SHOPPERS DRUG MART #12": {
+      "total": 43.69,
+      "count": 2,
+      "avg_per_transaction": 21.84
+    },
+    "SKIPTHEDISHES": {
+      "total": 74.27,
+      "count": 3,
+      "avg_per_transaction": 24.76
+    },
+    "SPOTIFY": {
+      "total": 43.32,
+      "count": 6,
+      "avg_per_transaction": 7.22
+    },
+    "SQ *BAZAAR GIFT SHOP - KE": {
+      "total": 16.95,
+      "count": 1,
+      "avg_per_transaction": 16.95
+    },
+    "SQ *CINNAHOLIC": {
+      "total": 21.99,
+      "count": 3,
+      "avg_per_transaction": 7.33
+    },
+    "STARBUCKS 04283": {
+      "total": 7.06,
+      "count": 1,
+      "avg_per_transaction": 7.06
+    },
+    "STARBUCKS COFFEE #2327": {
+      "total": 47.39,
+      "count": 4,
+      "avg_per_transaction": 11.85
+    },
+    "SUBWAY 29630": {
+      "total": 16.7,
+      "count": 1,
+      "avg_per_transaction": 16.7
+    },
+    "SUBWAY 58685": {
+      "total": 6.21,
+      "count": 1,
+      "avg_per_transaction": 6.21
+    },
+    "Subway 17747": {
+      "total": 17.04,
+      "count": 1,
+      "avg_per_transaction": 17.04
+    },
+    "Subway 58685": {
+      "total": 24.28,
+      "count": 2,
+      "avg_per_transaction": 12.14
+    },
+    "Subway 60876": {
+      "total": 119.55,
+      "count": 7,
+      "avg_per_transaction": 17.08
+    },
+    "TACO BELL BRAMALEA": {
+      "total": 19.99,
+      "count": 1,
+      "avg_per_transaction": 19.99
+    },
+    "TACO BELL SQUARE ONE": {
+      "total": 16.75,
+      "count": 1,
+      "avg_per_transaction": 16.75
+    },
+    "THAI EXPRESS - 2133": {
+      "total": 37.28,
+      "count": 2,
+      "avg_per_transaction": 18.64
+    },
+    "THAI EXPRESS - 2139": {
+      "total": 19.88,
+      "count": 1,
+      "avg_per_transaction": 19.88
+    },
+    "TIM HORTONS #2927": {
+      "total": 3.19,
+      "count": 1,
+      "avg_per_transaction": 3.19
+    },
+    "TIM HORTONS #3020": {
+      "total": 65.63,
+      "count": 6,
+      "avg_per_transaction": 10.94
+    },
+    "TIM HORTONS #3122": {
+      "total": 36.06,
+      "count": 6,
+      "avg_per_transaction": 6.01
+    },
+    "UDEMY: ONLINE COURSES": {
+      "total": 60.99,
+      "count": 3,
+      "avg_per_transaction": 20.33
+    },
+    "ULTRAMAR # 42221": {
+      "total": 27.87,
+      "count": 1,
+      "avg_per_transaction": 27.87
+    },
+    "URBAN BEHAVIOR #1521": {
+      "total": 72.89,
+      "count": 1,
+      "avg_per_transaction": 72.89
+    },
+    "VU SALON AND SPA": {
+      "total": 86.39,
+      "count": 1,
+      "avg_per_transaction": 86.39
+    },
+    "WAL-MART SUPERCENTER#1079": {
+      "total": 116.4,
+      "count": 2,
+      "avg_per_transaction": 58.2
+    },
+    "WAL-MART SUPERCENTER#1200": {
+      "total": 8.44,
+      "count": 1,
+      "avg_per_transaction": 8.44
+    }
+  }
+}
