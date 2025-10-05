@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:http/http.dart' as http; // for sending requests to backend
+import 'dart:convert';
+
 
 import 'package:hackaton_app/login.dart'; 
+import 'package:hackaton_app/forgot_password.dart'; 
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -19,6 +23,48 @@ class _SignUpPageState extends State<SignUpPage> {
   bool _obscurePassword = true; 
   bool _obscureRetypePassword = true; 
 
+  final String backendUrl = "http://127.0.0.1:3000/add_user"; // put url here 
+  Future<void> _signUp() async {
+    if (email.isEmpty || password.isEmpty || retypePassword.isEmpty) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text("Fill all fields")));
+      return;
+    }
+
+    if (password != retypePassword) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text("Passwords do not match")));
+      return;
+    }
+
+    try {
+      // Send POST request to backend to add user to db_users.json
+      final response = await http.post(
+        Uri.parse(backendUrl),
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode({
+          'email': email.trim(),
+          'password': password.trim(),
+        }),
+      );
+
+      if (response.statusCode == 200) {// if registration was success 
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text("User registered!")));
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const LoginPage()),
+        );
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Error: ${response.body}")),
+        );
+      }
+    } catch (e) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(SnackBar(content: Text("Error: $e")));
+    }
+  }
   
 
 
@@ -139,17 +185,17 @@ class _SignUpPageState extends State<SignUpPage> {
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
+                        onPressed: _signUp, 
+                        /*
                         onPressed: () {
+
                           // TODO: handle sign-up logic
                           
                           // Navigate to Login page
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => LoginPage()),
-                          );
+                          
                           print('Email: $email');
                           print('Password: $password');
-                        },
+                        }, */
                         style: ElevatedButton.styleFrom(
                           backgroundColor: const Color(0xFFFFB74D),
                           shadowColor: Colors.black45,
@@ -172,7 +218,10 @@ class _SignUpPageState extends State<SignUpPage> {
                       alignment: Alignment.centerRight,
                       child: TextButton(
                         onPressed: () {
-                          // TODO: handle forgot password
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ForgotPasswordPage()),
+                          );
                         },
                         child: const Text(
                           'Forgot Password?',
