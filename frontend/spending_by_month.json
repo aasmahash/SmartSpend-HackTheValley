@@ -1,0 +1,758 @@
+[
+  {
+    "month": "March 2025",
+    "total_spending": 1266.74,
+    "transaction_count": 8,
+    "transactions": [
+      {
+        "date": "03/19/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 566.82,
+        "balance": 0.0
+      },
+      {
+        "date": "03/19/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 566.82,
+        "balance": 0.0
+      },
+      {
+        "date": "03/20/2025",
+        "description": "Subway 60876",
+        "amount": 15.24,
+        "balance": 35.57
+      },
+      {
+        "date": "03/20/2025",
+        "description": "UDEMY: ONLINE COURSES",
+        "amount": 20.33,
+        "balance": 20.33
+      },
+      {
+        "date": "03/20/2025",
+        "description": "Subway 60876",
+        "amount": 15.24,
+        "balance": 35.57
+      },
+      {
+        "date": "03/20/2025",
+        "description": "UDEMY: ONLINE COURSES",
+        "amount": 20.33,
+        "balance": 20.33
+      },
+      {
+        "date": "03/23/2025",
+        "description": "LONGO'S # 7",
+        "amount": 30.98,
+        "balance": 66.55
+      },
+      {
+        "date": "03/23/2025",
+        "description": "LONGO'S # 7",
+        "amount": 30.98,
+        "balance": 66.55
+      }
+    ]
+  },
+  {
+    "month": "April 2025",
+    "total_spending": 783.41,
+    "transaction_count": 23,
+    "transactions": [
+      {
+        "date": "04/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 162.83
+      },
+      {
+        "date": "04/01/2025",
+        "description": "AMZN Mktp CA*PJ68J1IS3",
+        "amount": 81.6,
+        "balance": 155.61
+      },
+      {
+        "date": "04/01/2025",
+        "description": "OISHII TEA",
+        "amount": 7.46,
+        "balance": 74.01
+      },
+      {
+        "date": "04/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 162.83
+      },
+      {
+        "date": "04/01/2025",
+        "description": "AMZN Mktp CA*PJ68J1IS3",
+        "amount": 81.6,
+        "balance": 155.61
+      },
+      {
+        "date": "04/01/2025",
+        "description": "OISHII TEA",
+        "amount": 7.46,
+        "balance": 74.01
+      },
+      {
+        "date": "04/10/2025",
+        "description": "Subway 60876",
+        "amount": 18.74,
+        "balance": 181.57
+      },
+      {
+        "date": "04/10/2025",
+        "description": "Subway 60876",
+        "amount": 18.74,
+        "balance": 181.57
+      },
+      {
+        "date": "04/14/2025",
+        "description": "JOLLIBEE",
+        "amount": 14.11,
+        "balance": 345.68
+      },
+      {
+        "date": "04/14/2025",
+        "description": "PRESTO DUNDAS STN",
+        "amount": 150.0,
+        "balance": 331.57
+      },
+      {
+        "date": "04/14/2025",
+        "description": "JOLLIBEE",
+        "amount": 14.11,
+        "balance": 345.68
+      },
+      {
+        "date": "04/14/2025",
+        "description": "PRESTO DUNDAS STN",
+        "amount": 150.0,
+        "balance": 331.57
+      },
+      {
+        "date": "04/15/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 13.14,
+        "balance": 358.82
+      },
+      {
+        "date": "04/15/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 13.14,
+        "balance": 358.82
+      },
+      {
+        "date": "04/17/2025",
+        "description": "SQ *CINNAHOLIC",
+        "amount": 7.33,
+        "balance": 366.15
+      },
+      {
+        "date": "04/17/2025",
+        "description": "SQ *CINNAHOLIC",
+        "amount": 7.33,
+        "balance": 366.15
+      },
+      {
+        "date": "04/19/2025",
+        "description": "Huiyi International Inc",
+        "amount": 6.2,
+        "balance": 390.99
+      },
+      {
+        "date": "04/19/2025",
+        "description": "THAI EXPRESS - 2133",
+        "amount": 18.64,
+        "balance": 384.79
+      },
+      {
+        "date": "04/19/2025",
+        "description": "THAI EXPRESS - 2133",
+        "amount": 18.64,
+        "balance": 384.79
+      },
+      {
+        "date": "04/24/2025",
+        "description": "Subway 60876",
+        "amount": 17.38,
+        "balance": 504.4
+      },
+      {
+        "date": "04/24/2025",
+        "description": "AMZN Mktp CA*HE76559J3",
+        "amount": 96.03,
+        "balance": 487.02
+      },
+      {
+        "date": "04/26/2025",
+        "description": "SQ *CINNAHOLIC",
+        "amount": 7.33,
+        "balance": 511.73
+      },
+      {
+        "date": "04/27/2025",
+        "description": "TACO BELL BRAMALEA",
+        "amount": 19.99,
+        "balance": 531.72
+      }
+    ]
+  },
+  {
+    "month": "May 2025",
+    "total_spending": 705.0,
+    "transaction_count": 14,
+    "transactions": [
+      {
+        "date": "05/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 538.94
+      },
+      {
+        "date": "05/02/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 19.55,
+        "balance": 558.49
+      },
+      {
+        "date": "05/04/2025",
+        "description": "WAL-MART SUPERCENTER#1079",
+        "amount": 51.79,
+        "balance": 610.28
+      },
+      {
+        "date": "05/05/2025",
+        "description": "OSMOW'S",
+        "amount": 21.28,
+        "balance": 631.56
+      },
+      {
+        "date": "05/12/2025",
+        "description": "OSMOW'S",
+        "amount": 13.55,
+        "balance": 242.82
+      },
+      {
+        "date": "05/12/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 390.99,
+        "balance": 229.27
+      },
+      {
+        "date": "05/12/2025",
+        "description": "AMZN Mktp CA",
+        "amount": 11.3,
+        "balance": 620.26
+      },
+      {
+        "date": "05/14/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 6.58,
+        "balance": 249.4
+      },
+      {
+        "date": "05/15/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 5.59,
+        "balance": 254.99
+      },
+      {
+        "date": "05/20/2025",
+        "description": "OISHII TEA",
+        "amount": 7.46,
+        "balance": 275.95
+      },
+      {
+        "date": "05/21/2025",
+        "description": "AMZN Mktp CA*NZ7GT1F90",
+        "amount": 68.2,
+        "balance": 344.15
+      },
+      {
+        "date": "05/28/2025",
+        "description": "Subway 58685",
+        "amount": 10.16,
+        "balance": 354.31
+      },
+      {
+        "date": "05/29/2025",
+        "description": "AMZN Mktp CA*NN3EB4M91",
+        "amount": 53.43,
+        "balance": 445.64
+      },
+      {
+        "date": "05/29/2025",
+        "description": "AMZN Mktp CA*NN6F161D0",
+        "amount": 37.9,
+        "balance": 392.21
+      }
+    ]
+  },
+  {
+    "month": "June 2025",
+    "total_spending": 1881.92,
+    "transaction_count": 41,
+    "transactions": [
+      {
+        "date": "06/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 701.46
+      },
+      {
+        "date": "06/01/2025",
+        "description": "PEARL WELLNESS SPA INC.",
+        "amount": 248.6,
+        "balance": 694.24
+      },
+      {
+        "date": "06/03/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 10.25,
+        "balance": 711.71
+      },
+      {
+        "date": "06/04/2025",
+        "description": "UDEMY: ONLINE COURSES",
+        "amount": 20.33,
+        "balance": 732.04
+      },
+      {
+        "date": "06/05/2025",
+        "description": "Subway 60876",
+        "amount": 18.74,
+        "balance": 757.33
+      },
+      {
+        "date": "06/05/2025",
+        "description": "OISHII TEA",
+        "amount": 6.55,
+        "balance": 738.59
+      },
+      {
+        "date": "06/06/2025",
+        "description": "DOLLARAMA # 795",
+        "amount": 2.83,
+        "balance": 774.16
+      },
+      {
+        "date": "06/06/2025",
+        "description": "FRESHCO #9612",
+        "amount": 14.0,
+        "balance": 771.33
+      },
+      {
+        "date": "06/07/2025",
+        "description": "POPEYES #11590",
+        "amount": 17.83,
+        "balance": 881.63
+      },
+      {
+        "date": "06/07/2025",
+        "description": "TACO BELL SQUARE ONE",
+        "amount": 16.75,
+        "balance": 863.8
+      },
+      {
+        "date": "06/07/2025",
+        "description": "URBAN BEHAVIOR #1521",
+        "amount": 72.89,
+        "balance": 847.05
+      },
+      {
+        "date": "06/09/2025",
+        "description": "KFC/TACO BELL",
+        "amount": 23.45,
+        "balance": 636.59
+      },
+      {
+        "date": "06/09/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 268.49,
+        "balance": 613.14
+      },
+      {
+        "date": "06/10/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 7.31,
+        "balance": 668.86
+      },
+      {
+        "date": "06/10/2025",
+        "description": "AMZN Mktp CA*NH8SX0GN1",
+        "amount": 24.96,
+        "balance": 661.55
+      },
+      {
+        "date": "06/11/2025",
+        "description": "AMZN Mktp CA*NH50K0SX0",
+        "amount": 40.08,
+        "balance": 408.94
+      },
+      {
+        "date": "06/11/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 300.0,
+        "balance": 368.86
+      },
+      {
+        "date": "06/12/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 6.33,
+        "balance": 415.27
+      },
+      {
+        "date": "06/14/2025",
+        "description": "SKIPTHEDISHES",
+        "amount": 27.88,
+        "balance": 443.15
+      },
+      {
+        "date": "06/18/2025",
+        "description": "Subway 58685",
+        "amount": 14.12,
+        "balance": 464.73
+      },
+      {
+        "date": "06/19/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 4.78,
+        "balance": 469.51
+      },
+      {
+        "date": "06/20/2025",
+        "description": "Huiyi International Inc",
+        "amount": 6.2,
+        "balance": 491.52
+      },
+      {
+        "date": "06/20/2025",
+        "description": "JOLLIBEE",
+        "amount": 15.81,
+        "balance": 485.32
+      },
+      {
+        "date": "06/21/2025",
+        "description": "NO FRILLS ROCKY'S #718",
+        "amount": 16.61,
+        "balance": 508.13
+      },
+      {
+        "date": "06/26/2025",
+        "description": "ANGEL BEAUTY & HAIR SALO",
+        "amount": 5.65,
+        "balance": 63.17
+      },
+      {
+        "date": "06/26/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 450.61,
+        "balance": 57.52
+      },
+      {
+        "date": "06/27/2025",
+        "description": "TIM HORTONS #2927",
+        "amount": 3.19,
+        "balance": 185.36
+      },
+      {
+        "date": "06/27/2025",
+        "description": "MAHAL TANJORE",
+        "amount": 40.28,
+        "balance": 182.17
+      },
+      {
+        "date": "06/27/2025",
+        "description": "BURGER KING #18025",
+        "amount": 7.33,
+        "balance": 141.89
+      },
+      {
+        "date": "06/27/2025",
+        "description": "SHOPPERS DRUG MART #12",
+        "amount": 20.89,
+        "balance": 134.56
+      },
+      {
+        "date": "06/27/2025",
+        "description": "STARBUCKS 04283",
+        "amount": 7.06,
+        "balance": 113.67
+      },
+      {
+        "date": "06/27/2025",
+        "description": "ONROUTE ODESSA E #1172",
+        "amount": 35.0,
+        "balance": 106.61
+      },
+      {
+        "date": "06/27/2025",
+        "description": "WAL-MART SUPERCENTER#1200",
+        "amount": 8.44,
+        "balance": 71.61
+      },
+      {
+        "date": "06/28/2025",
+        "description": "THAI EXPRESS - 2139",
+        "amount": 19.88,
+        "balance": 210.88
+      },
+      {
+        "date": "06/28/2025",
+        "description": "MCDONALD'S #13277  QPS",
+        "amount": 5.64,
+        "balance": 191.0
+      },
+      {
+        "date": "06/29/2025",
+        "description": "CHOCOLATE N CHILL",
+        "amount": 9.04,
+        "balance": 245.77
+      },
+      {
+        "date": "06/29/2025",
+        "description": "CHATIME CHA120",
+        "amount": 8.81,
+        "balance": 236.73
+      },
+      {
+        "date": "06/29/2025",
+        "description": "Subway 17747",
+        "amount": 17.04,
+        "balance": 227.92
+      },
+      {
+        "date": "06/30/2025",
+        "description": "SKIPTHEDISHES",
+        "amount": 22.96,
+        "balance": 296.82
+      },
+      {
+        "date": "06/30/2025",
+        "description": "METRO 100428",
+        "amount": 5.29,
+        "balance": 273.86
+      },
+      {
+        "date": "06/30/2025",
+        "description": "SHOPPERS DRUG MART #12",
+        "amount": 22.8,
+        "balance": 268.57
+      }
+    ]
+  },
+  {
+    "month": "July 2025",
+    "total_spending": 320.03,
+    "transaction_count": 19,
+    "transactions": [
+      {
+        "date": "07/01/2025",
+        "description": "ESSO CIRCLE K",
+        "amount": 30.76,
+        "balance": 362.67
+      },
+      {
+        "date": "07/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 331.91
+      },
+      {
+        "date": "07/01/2025",
+        "description": "ULTRAMAR # 42221",
+        "amount": 27.87,
+        "balance": 324.69
+      },
+      {
+        "date": "07/04/2025",
+        "description": "STARBUCKS COFFEE #2327",
+        "amount": 7.06,
+        "balance": 369.73
+      },
+      {
+        "date": "07/07/2025",
+        "description": "DAIRY QUEEN #12278",
+        "amount": 11.84,
+        "balance": 381.57
+      },
+      {
+        "date": "07/09/2025",
+        "description": "KFC/TACO BELL",
+        "amount": 16.55,
+        "balance": 398.12
+      },
+      {
+        "date": "07/12/2025",
+        "description": "NO FRILLS ROCKY'S #718",
+        "amount": 26.71,
+        "balance": 424.83
+      },
+      {
+        "date": "07/14/2025",
+        "description": "AMZN Mktp CA*QP3FH0VH3",
+        "amount": 35.91,
+        "balance": 460.74
+      },
+      {
+        "date": "07/15/2025",
+        "description": "Subway 60876",
+        "amount": 15.47,
+        "balance": 476.21
+      },
+      {
+        "date": "07/16/2025",
+        "description": "NO FRILLS ROCKY'S #718",
+        "amount": 15.48,
+        "balance": 491.69
+      },
+      {
+        "date": "07/19/2025",
+        "description": "NO FRILLS ROCKY'S #718",
+        "amount": 8.02,
+        "balance": 549.39
+      },
+      {
+        "date": "07/21/2025",
+        "description": "STARBUCKS COFFEE #2327",
+        "amount": 6.72,
+        "balance": 556.11
+      },
+      {
+        "date": "07/22/2025",
+        "description": "WAL-MART SUPERCENTER#1079",
+        "amount": 64.61,
+        "balance": 620.72
+      },
+      {
+        "date": "07/24/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 3.41,
+        "balance": 624.13
+      },
+      {
+        "date": "07/25/2025",
+        "description": "SUBWAY 58685",
+        "amount": 6.21,
+        "balance": 630.34
+      },
+      {
+        "date": "07/26/2025",
+        "description": "SQ *BAZAAR GIFT SHOP - KE",
+        "amount": 16.95,
+        "balance": 653.89
+      },
+      {
+        "date": "07/26/2025",
+        "description": "PRESTO FARE/PMCRQJ9BXF",
+        "amount": 6.6,
+        "balance": 636.94
+      },
+      {
+        "date": "07/31/2025",
+        "description": "TIM HORTONS #3122",
+        "amount": 8.64,
+        "balance": 666.53
+      },
+      {
+        "date": "07/31/2025",
+        "description": "NO FRILLS ROCKY'S #718",
+        "amount": 4.0,
+        "balance": 657.89
+      }
+    ]
+  },
+  {
+    "month": "August 2025",
+    "total_spending": 1340.07,
+    "transaction_count": 14,
+    "transactions": [
+      {
+        "date": "08/01/2025",
+        "description": "SPOTIFY",
+        "amount": 7.22,
+        "balance": 673.75
+      },
+      {
+        "date": "08/02/2025",
+        "description": "OLD NAVY CANADA 5461",
+        "amount": 111.31,
+        "balance": 792.51
+      },
+      {
+        "date": "08/02/2025",
+        "description": "MR. PRETZELS",
+        "amount": 7.45,
+        "balance": 681.2
+      },
+      {
+        "date": "08/03/2025",
+        "description": "STARBUCKS COFFEE #2327",
+        "amount": 14.46,
+        "balance": 806.97
+      },
+      {
+        "date": "08/05/2025",
+        "description": "SUBWAY 29630",
+        "amount": 16.7,
+        "balance": 823.67
+      },
+      {
+        "date": "08/07/2025",
+        "description": "STARBUCKS COFFEE #2327",
+        "amount": 19.15,
+        "balance": 842.82
+      },
+      {
+        "date": "08/08/2025",
+        "description": "VU SALON AND SPA",
+        "amount": 86.39,
+        "balance": 426.97
+      },
+      {
+        "date": "08/08/2025",
+        "description": "ESSO CIRCLE K",
+        "amount": 39.13,
+        "balance": 340.58
+      },
+      {
+        "date": "08/08/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 541.37,
+        "balance": 301.45
+      },
+      {
+        "date": "08/11/2025",
+        "description": "SKIPTHEDISHES",
+        "amount": 23.43,
+        "balance": 450.4
+      },
+      {
+        "date": "08/13/2025",
+        "description": "OSMOW'S",
+        "amount": 14.68,
+        "balance": 465.08
+      },
+      {
+        "date": "08/14/2025",
+        "description": "TIM HORTONS #3020",
+        "amount": 2.97,
+        "balance": 468.05
+      },
+      {
+        "date": "08/15/2025",
+        "description": "PAYMENT - THANK YOU",
+        "amount": 450.4,
+        "balance": 23.06
+      },
+      {
+        "date": "08/15/2025",
+        "description": "Kindle Svcs",
+        "amount": 5.41,
+        "balance": 473.46
+      }
+    ]
+  }
+]
